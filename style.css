@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    background: palevioletred;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar h1 {
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.card img {
+    width: 180px;
+    height: 230px;
+    border-radius: 6px;
+}
+
+.card-info .country-name {
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+
+.card-info a {
+    color: gray;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.card-info h2 {
+    margin: 5px 0 20px 0;
+}
+
+.card-info .dates {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.card-info .description {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 10px;
+}
